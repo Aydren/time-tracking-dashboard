@@ -5,6 +5,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
+p {
+    font-size: 18px;
+}
+
 .attribution { 
     margin-top: 10em;
     font-size: 11px; 
@@ -31,3 +35,49 @@ body {
 .box:nth-child(1) {
     grid-row: span 2;
 }
+
+.report img {
+    border: 2px solid white;
+    border-radius: 150px;
+    width: 20%;
+}
+
+.report{
+    background: hsl(235, 45%, 61%);
+    border-radius: 15px;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 3.3em;
+}
+
+.work {
+    background: hsl(15, 100%, 70%);
+}
+
+.play {
+    background: hsl(195, 74%, 62%);
+}
+
+.study {
+    background: hsl(348, 100%, 68%);
+}
+
+.exercise {
+    background: hsl(145, 58%, 55%);
+}
+
+.social {
+    background: hsl(264, 64%, 52%);
+}
+
+.self-care {
+    background: hsl(43, 84%, 65%);
+}
+
+.self-care, .social, .exercise, .study, .play, .work {
+    height: 4em;
+    text-align: right;
+    padding-right: 1em;
+    border-radius: 15px;
+}
+
