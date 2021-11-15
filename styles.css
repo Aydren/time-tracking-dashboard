@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+* {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.attribution { 
+    margin-top: 10em;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsl(226, 43%, 10%);
+    margin: 10em 5em;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 4;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+}
+
+.box:nth-child(1) {
+    grid-row: span 2;
+}
